@@ -1,0 +1,57 @@
+/* horizontal contacts bar, first row of the page layout*/
+.hr-contact-bar {
+    display: flex;
+    padding: 0 5%;
+    margin: 1%;
+}
+
+.address-links {
+    flex: 1;
+    gap: 10px;
+
+}
+
+.icon-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+/* horizontal menu bar, second row of the page layout */
+.hr-menu-bar {
+    display: flex;
+    padding: 0 5%;
+    margin: 1%;
+}
+.page-icon {
+    flex: 1;
+    gap: 10px;
+}
+.menus {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.banner-hr-scroll {
+    display: flex;
+    padding: 1%;
+    justify-content: space-around;
+    align-content: space-around;
+    overflow-y: hidden;
+}
+
+.banners {
+    flex: 1;
+    padding: 1%;
+    /* margin: 5%; */
+    gap: 10px;
+}
+
+.banners img {
+    max-width: 1000px;
+    /* max-height: 60%; */
+}
+
