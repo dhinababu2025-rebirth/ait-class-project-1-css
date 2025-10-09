@@ -1,13 +1,25 @@
 /* horizontal contacts bar, first row of the page layout*/
+a {
+    text-decoration: none;
+}
+hr {
+    /* padding: 10px 0; */
+    margin: 0;
+    border: none;
+    border-top: 1px solid lightgray;
+}
+
 .hr-contact-bar {
     display: flex;
     padding: 0 5%;
-    margin: 1%;
+    margin: 1%; 
+    justify-content: center;
 }
 
 .address-links {
     flex: 1;
     gap: 10px;
+    justify-content:space-evenly ;
 
 }
 
@@ -21,17 +33,47 @@
 /* horizontal menu bar, second row of the page layout */
 .hr-menu-bar {
     display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
     padding: 0 5%;
-    margin: 1%;
+    margin: 0px;
+    /* margin: 1%; */
+    /* text-align: center; */
+    align-items: center;
+    overflow-y: hidden;
 }
 .page-icon {
     flex: 1;
-    gap: 10px;
+    /* gap: 10px; */
 }
 .menus {
     flex: 1;
     display: flex;
-    justify-content: flex-end;
+    justify-items: flex-end;
+    justify-content:space-evenly;
+    gap: 10px;
+    align-items: center;
+}
+.menus a:hover {
+    color: orangered;
+}
+.visit-text {
+    background-color: black;
+    color: orangered;
+    min-width: 148px;
+    /* padding: 10px; */
+    padding-right: 10px;
+    border-radius: 20px;
+    gap: 1rem;
+    text-align: center;
+}
+.visit-text div i {
+    background-color: orangered;
+    color: white;
+    padding: 10px 11px;
+    border-radius: 20px;
     gap: 10px;
 }
 
@@ -43,6 +85,48 @@
     overflow-y: hidden;
 }
 
+.banner-1 {
+    /* background-image: url('images/banner-01.jpg'); */
+    border: 1px solid black;
+    margin: 1px solid red;
+    position: relative;
+    /* display: flex;
+    align-items: center; */
+    min-width: 100%;
+    /* align-content: center; */
+    /* justify-content: center; */
+    /* justify-items: center; */
+}
+.banner-1 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.prop-location {
+    position: absolute;
+    border: 1px solid black;
+    margin: 1px solid red;
+  top: 30%;        /* move to vertical center */
+  left: 20%;       /* move to horizontal center */
+  transform: translate(-57%, -50%); /* perfect centering */
+  color: black;
+  background-color: white;
+  font-size: 2rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+.prop-pitch {
+position: absolute;
+    border: 1px solid black;
+    margin: 1px solid red;
+  top: 60%;        /* move to vertical center */
+  left: 20%;       /* move to horizontal center */
+  transform: translate(-50%, -50%); /* perfect centering */
+  color: black;
+  background-color: white;
+  font-size: 2rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
 .banners {
     flex: 1;
     padding: 1%;
@@ -51,7 +135,7 @@
 }
 
 .banners img {
-    max-width: 1000px;
+    max-width: 1024px;
     /* max-height: 60%; */
 }
 
