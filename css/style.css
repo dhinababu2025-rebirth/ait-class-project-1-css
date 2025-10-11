@@ -84,7 +84,7 @@ hr {
     max-width: 100%;
     height: auto;
     gap: 5px;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-content: center;
     /* align-items: ; */
     /* flex-wrap: nowrap; */
@@ -122,8 +122,8 @@ hr {
   color: black;
   background-color: white;
   padding: 2px 4px;
-  font-size: 2rem;
-  /* text-shadow: 2px 2px 4px rgba(0,0,0,0.5); */
+  font-size: xx-large;
+    /* text-shadow: 2px 2px 4px rgba(0,0,0,0.5); */
 }
 .prop-pitch {
 position: absolute;
@@ -134,7 +134,24 @@ position: absolute;
   transform: translate(-50%, -50%); /* perfect centering */
   color: white;
   /* background-color: white; */
-  font-size: 2rem;
+  font-size: xx-large;
   font-weight: bolder;
   /* text-shadow: 2px 2px 4px rgba(0,0,0,0.5); */
+}
+
+
+
+
+
+
+footer {
+    background-color: black;
+    /* padding-left: 10%; */
+    padding: 5px;
+}
+footer p {
+    color: beige;
+    font-size: small;
+    font-style: oblique;
+    margin-left: 10%;
 }
