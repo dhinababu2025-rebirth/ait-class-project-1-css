@@ -1,0 +1,24 @@
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+.address-links {
+  flex: 2;
+  }
+.menus {
+  flex: 3;
+}
+
+.prop-info {
+  top: 30%;
+  left: 30%;
+  height: 10%;
+}
+.prop-location {
+  transform: translate(-80%, -70%); 
+  padding: 2px 4px;
+  font-size: medium;
+}
+.prop-pitch {
+  transform: translate(-37%, -10%); 
+  font-size: xx-large;
+  font-weight: bold;
+}
+}

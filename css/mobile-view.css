@@ -1,0 +1,113 @@
+@media screen and (max-width: 425px) {
+  
+  .address-links a span{
+    display: none;
+  }
+
+  .hr-menu-bar {
+    justify-content: space-around;
+  }
+  .hamberger-menu {
+    display: block;
+    flex: 1;
+          position: relative; /* ✅ anchor for the absolute menu */
+          z-index: 2000;      /* ensure it’s above banners */
+  }
+            /* Hide checkbox */
+            #menu-toggle {
+              display: none;
+            }
+
+            /* Hamburger icon */
+            .menu-icon {
+              display: inline-block;
+              position: relative;
+              cursor: pointer;
+              padding: 10px 12px;
+              background: orangered;
+              color: white;
+              border-radius: 5px;
+            }
+           
+
+            /* Menu (hidden by default) */
+            .mobile-menu {
+                 display: none;
+                  position: absolute;
+                  top: 100%; /* ✅ appears just below hamburger icon */
+                  left: 0;
+                  background-color: rgba(0, 0, 0, 0.9);
+                  color: white;
+                  width: 250px;
+                  z-index: 9999; /* ✅ above banners & header */
+                  border-radius: 5px;
+                  border: 1px solid red;
+            }
+
+
+            .mobile-menu a {
+              display: block;
+              color: white;
+              padding: 10px;
+              text-decoration: none;
+            }
+
+             /* When checked → show menu */
+            #menu-toggle:checked + .menu-icon + .mobile-menu {
+              display: block;
+              z-index: 9999;
+            }
+
+/*             
+            banner-hr-scroll {
+            position: relative;
+            z-index: 1; 
+            } */
+            
+
+
+            
+
+  .page-icon {
+    flex: 4;
+    text-align: center;
+  }
+  .menus {
+    flex: 1;
+  }
+
+  .hr-menu-bar .menus a{
+    display: none;
+  } 
+  .hr-menu-bar .menus a[class = "visit-link"] {
+    display: block;
+  }
+
+  .visit-link {
+    min-width: fit-content;
+    max-width: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  .visit-text {
+    display: none;
+  }
+
+
+.prop-info {
+  top: 30%;
+  left: 30%;
+  height: 10%;
+}
+.prop-location {
+  transform: translate(-80%, -70%); 
+  padding: 2px 4px;
+  font-size: medium;
+}
+.prop-pitch {
+  transform: translate(-37%, -10%); 
+  font-size: large;
+  font-weight: bold;
+}
+
+}
