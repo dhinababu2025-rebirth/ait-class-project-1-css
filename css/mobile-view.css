@@ -6,6 +6,7 @@
 
   .hr-menu-bar {
     justify-content: space-around;
+    z-index: 3000;
   }
   .hamberger-menu {
     display: block;
@@ -39,7 +40,7 @@
                   background-color: rgba(0, 0, 0, 0.9);
                   color: white;
                   width: 250px;
-                  z-index: 9999; /* ✅ above banners & header */
+                  z-index: 99999; /* ✅ above banners & header */
                   border-radius: 5px;
                   border: 1px solid red;
             }
@@ -55,7 +56,8 @@
              /* When checked → show menu */
             #menu-toggle:checked + .menu-icon + .mobile-menu {
               display: block;
-              z-index: 9999;
+              /* position: absolute;
+              z-index: 9999; */
             }
 
 /*             
