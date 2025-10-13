@@ -49,6 +49,7 @@
             .mobile-menu a {
               display: block;
               color: white;
+              border: 1px solid orangered;
               padding: 10px;
               text-decoration: none;
             }

@@ -43,7 +43,8 @@ hr {
     /* margin: 1%; */
     /* text-align: center; */
     align-items: center;
-    overflow-y: visible;
+    /* spent a day to find out, mobile menu was hidden by this overflow-y: hidden;*/
+    overflow-y: visible;  
 }
 .hamberger-menu {
     display: none;
@@ -170,15 +171,173 @@ hr {
 }
 
 
+/* featured section */
+
+.featured {
+    /* width: 90%; */
+    align-self: center;
+    padding: 10% 10% 5%;
+    max-width: 100%;
+    /* height: 500px; */
+    display: flex;
+    justify-items: center;
+    align-items: flex-start;
+    justify-content: center;
+    /* align-content: center; */
+    border: 1px solid red;
+}
+.featured-image {
+    position: relative;
+    flex: 3;
+    /* border: 1px solid rebeccapurple; */
+    /* max-width: 220px; */
+}
+ .featured-image img {
+    width: 100%;
+    /* padding: 0% 10%; */
+ }
+
+.featured-image-icon {
+    padding: 25px;
+    border-radius: 50px;
+    background-color: orangered;
+    position: absolute;
+    top: 85%;
+    left: -18%;
+}
+.featured-image-icon img {
+    /* flex: 1; */
+    /* position: absolute;
+    z-index: 10;
+    top:95%;
+    left: 0px; */
+    background-color: orangered;
+    padding: 0;
+    /* margin: 5px; */
+
+    width: 40px;
+    height: 40px;
+    /* border-radius: 50px; */
+    /* border: 10px solid red; */
+}
 
 
 
+
+/* middle column, accordion, featured text content */
+.featured-details {
+    flex: 4;
+    /* border: 1px solid rebeccapurple; */
+}
+.title-featured {
+    font-size: 80%;
+    font-weight: bolder;
+    color: orangered;
+    width: 90%;
+  margin: 0px auto;
+}
+.heading-featured {
+    font-size: 200%;
+    font-weight: bolder;
+    /* color: orangered; */
+    width: 90%;
+  margin: 20px auto;
+}
+/* Accordion container */
+.accordion {
+  width: 90%;
+  margin: 20px auto;
+  font-family: sans-serif;
+}
+/* Accordion heading container */
+.accordion-item {
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+/* Hide the radio buttons linked to accordion heading*/
+.accordion input[type="radio"] {
+  display: none;
+}
+/* Accordion heading text*/
+.accordion-label {
+  display: block;
+  background: #f2f2f2;
+  color: orangered;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+/* Accordion heading effect */
+.accordion-label:hover {
+  background: rgb(252, 252, 252);
+  color: orangered ;
+}
+/* The collapsible content */
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  background: lightgray;
+  transition: max-height 0.4s ease, padding 0.4s ease;
+  padding: 0 10px;
+}
+/* When checked → show content */
+.accordion input[type="radio"]:checked + .accordion-label + .accordion-content {
+  max-height: 200px;
+  padding: 10px;
+}
+
+
+
+
+
+/* featured info */
+
+.featured-info {
+    flex: 2.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    max-width: 190px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    /* border: 1px solid rebeccapurple; */
+}
+/* styling each item (of 4 items) of featured info in right column */
+.featured-info-item {
+    flex: 1;
+    display: flex;
+    padding: 5px;
+    /* justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    row-gap: 10px; */
+}
+.featured-info-item-icon {
+    flex: 1;
+    padding: 5px;
+    /* border: 1px solid greenyellow; */
+}
+.featured-image-icon img {
+    padding: 0;
+    margin: 0;
+}
+.featured-info-item-description {
+    flex: 3;
+    padding: 5px;
+    /* border: 1px solid violet; */
+}
 
 footer {
     background-color: black;
     /* padding-left: 10%; */
     padding: 5px;
-    display: none;
+    /* display: none; */
 }
 footer p {
     color: beige;
