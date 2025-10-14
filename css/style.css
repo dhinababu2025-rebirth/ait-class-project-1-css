@@ -51,7 +51,8 @@ hr {
 }
 .page-icon {
     flex: 1;
-    padding: auto;
+    padding:0;
+    margin: 0;
     /* gap: 10px; */
 }
 .menus {
@@ -306,8 +307,8 @@ hr {
     align-content: space-evenly;
     width: 100%;
     /* height:; */
-    padding: 2%;
-    padding-bottom: 0%;
+    padding: 2% 0;
+    padding-bottom: 0%; 
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     /* border: 1px solid rebeccapurple; */
@@ -354,6 +355,98 @@ hr {
     /* border: 1px solid violet; */
 }
 
+/* Video View section: a dummy video with poster , controls, placed on a background image */
+.video-view-container {
+    max-width: 100vw;
+    padding-bottom: 75px;
+    /* overflow: hidden; */
+    /* margin: 0 auto; */
+   
+ 
+}
+.video-view-bg {
+    width: 100%;
+     position: relative;
+}
+.video-view-bg img{
+    width: 100%;
+}
+.video-view-bg-text {
+    position: absolute;
+    top: 70px;
+    left: 40%;
+    align-self: center;
+    text-align: center;
+}
+.video-view-bg-text .title{
+    color: orangered;
+    font-size: large;
+    font-weight: bold;
+}
+.video-view-bg-text p {
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+}
+.video-view {
+    position: absolute;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+    max-width: 70%;
+    top: 60%;
+  left: 15%;
+  /* right: auto; */
+  /* transform: translate(-50%, -50%); */
+}
+.video-view video {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* video view footer cards */
+.video-view-footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 300px;
+    /* border: 1px solid greenyellow; */
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    align-content: center;
+    align-items: center;
+}
+.video-view-footer-cards {
+    flex: 1;
+    display: flex;
+    max-width: 16%;
+    min-width: 150px;
+    padding: 20px;
+    background-color: rgba(255, 69, 0, 0.1);
+    /* border: 1px solid red; */
+    border-radius: 5px;
+}
+.video-view-footer-cards b {
+    flex: 1;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    align-self: center;
+    font-size: 50px;
+    color: orangered;
+    font-weight: bolder;
+    padding-right: 20px;
+    /* border: 1px solid greenyellow; */
+}
+.video-view-footer-cards p {
+    flex: 3;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    align-self: center;
+    font-weight: bold;
+    /* border: 1px solid black; */
+}
 footer {
     background-color: black;
     /* padding-left: 10%; */

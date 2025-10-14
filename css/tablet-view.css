@@ -54,4 +54,24 @@
   flex: 1;
   margin: 0% 4%;
 }
+
+.video-view-bg-text {
+    top: 40px;
+    /* align-self: center; */
+    /* left: 35%; */
+}
+.video-view-bg-text .title{
+    padding-bottom: 0;
+    font-size: medium;
+}
+.video-view-bg-text p {
+    font-size: large;
+    padding-top: 0;
+    /* font-weight: bolder;
+    color: white; */
+}
+.video-view-footer {
+  margin-top: 190px;
+}
+
 }
