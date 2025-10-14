@@ -21,4 +21,37 @@
   font-size: xx-large;
   font-weight: bold;
 }
+
+/* featured section - container */
+.featured {
+  display: flex;
+  flex-wrap: wrap;
+  /* grid-template-columns: repeat(2,fr); */
+}
+/* featured section - left column (desktop) */
+.featured-image {
+  order: 1;
+  min-width: 30vw;
+  /* grid-template-columns: repeat(2,fr); */
+  flex: 1;
+  margin: 0% 4%;
+  border: 1px solid;
+}
+
+/* featured section - middle column (desktop) */
+.featured-details {
+  order: 3;
+  flex: 2;
+  min-width: 80vw;
+}
+
+/* featured section - right column (desktop) */
+.featured-info {
+  order: 2;
+  min-width: 30vw;
+    /* grid-template-columns: repeat(2,fr); */
+
+  flex: 1;
+  margin: 0% 4%;
+}
 }
