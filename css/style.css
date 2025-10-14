@@ -233,7 +233,7 @@ hr {
     /* border: 1px solid rebeccapurple; */
 }
 .title-featured {
-    font-size: 80%;
+    font-size: 100%;
     font-weight: bolder;
     color: orangered;
     width: 90%;
@@ -314,7 +314,7 @@ hr {
 }
 
 .featured-info-item-description b {
-    font-size: large;
+    font-size: larger;
     /* border: 1px solid red; */
 }
 .featured-info-item-description p {
