@@ -125,7 +125,7 @@
 }
 /* featured section - left column (desktop) */
 .featured-image {
-  order: 2;
+  order: 1;
   width: 100%;
   /* grid-template-columns: repeat(2,fr); */
   flex: 1;
@@ -134,9 +134,9 @@
   /* border: 1px solid; */
 }
 
-/* featured section - middle column (desktop) */
+/* featured section - accordion middle column (desktop) */
 .featured-details {
-  order: 1;
+  order: 3;
   flex: 1;
   padding: 2px;
 
@@ -145,7 +145,7 @@
 
 /* featured section - right column (desktop) */
 .featured-info {
-  order: 3;
+  order: 2;
   width: 100%;
     /* grid-template-columns: repeat(2,fr); */
 
