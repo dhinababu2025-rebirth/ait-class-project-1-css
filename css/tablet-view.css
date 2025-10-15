@@ -111,4 +111,9 @@
   /* border: 1px solid; */
 }
 
+/* Property Section - cards arranged in grid container */
+.property-cards-in-grid {
+    /* display: grid; */
+    grid-template-columns: repeat(2, 1fr);
+}
 }

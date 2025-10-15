@@ -240,4 +240,10 @@
   width: 100%;
 }
 
+/* Property Section - cards arranged in grid container */
+.property-cards-in-grid {
+    /* display: grid; */
+    grid-template-columns: repeat(1, 1fr);
+}
+
 }

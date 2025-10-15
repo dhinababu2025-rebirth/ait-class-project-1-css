@@ -537,7 +537,125 @@ hr {
     padding: 0;
 }
 
+/* Properties Section - Home page, A Grid of Property Cards */
+.properties {
+    background-color: white;
+}
 
+/* Properties section heading */
+.properties-text-home-page {
+    text-align: center;
+    padding: 50px 0 0 0;
+    margin: 0;
+}
+.properties-text-home-page p {
+    font-size: medium;
+    font-weight: bold;
+    color: orangered;
+}
+.properties-text-home-page b {
+    font-size: xx-large;
+}
+
+/* grid container for property cards */
+.property-cards-in-grid {
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 1.5rem;
+
+  /* 👇 Center the grid content */
+  justify-content: center;
+  /* align-content: space-evenly; */
+  /* width: 100%; */
+  /* border: 1px solid; */
+}
+
+/* Property Card Design */
+.property-card {
+    /* display: flex; */
+    /* flex: 1;
+    flex-wrap: wrap; */
+    /* display: inline-block; */
+    /* max-width: 300px; */
+    /* min-width: 290px; */
+    /* max-height: 600px; */
+    border: 30px solid rgba(211, 211, 211, 0.1);
+    border-radius: 30px;
+    background-color: rgba(211, 211, 211, 0.1);
+}
+/* card image */
+.property-card-image {
+    /* border: 1px solid red; */
+    min-width: 90%;
+    max-width: 100%;
+    /* flex: 1; */
+}
+.property-card-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+/* card value */
+.property-card-value {
+    display: flex;
+    /* border: 1px solid; */
+    justify-content: space-between;
+    padding: 10px 0;
+    
+    /* align-content: center; */
+}
+.prop-type {
+    flex: 1;
+    padding: 5px;
+    margin: 0;
+    max-width: fit-content;
+    border-radius: 5px;
+    background-color: lightpink;
+    /* border: 1px solid yellow; */
+}
+.prop-value {
+    flex: 1;
+    padding: 0;
+    margin: 0;
+    color: orangered;
+    font-size: larger;
+    font-weight: bolder;
+    /* justify-self: flex-end; */
+    text-align: right;
+    /* border: 1px solid green; */
+}
+/* card address */
+.property-card-address {
+    font-size: larger;
+    font-weight: bolder;
+}
+/* card features */
+.property-card-features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    padding: 20px 0;
+}
+.property-card-features div {
+    flex: 0;
+    min-width:fit-content;
+    padding: 0 15px 5px 0;
+}
+/* visit link in card */
+.property-card-visit {
+    text-align: center;
+    padding-top: 35px;
+}
+.property-card-visit a {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid;
+}
+.property-card-visit a:hover {
+    background-color: orangered;
+}
 
 footer {
     background-color: black;
