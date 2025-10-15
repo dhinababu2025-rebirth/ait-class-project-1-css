@@ -1,0 +1,129 @@
+hr {
+    /* color: rgba(240, 240, 240, 0.1); */
+    border: 1px solid rgba(211, 211, 211, 0.2);
+    margin: 0;
+}
+.best-deal-featured {
+    /* width: 90%; */
+    align-self: center;
+    /* padding: 10% 10% 10%; */
+    padding: 5rem 0 0;
+    margin: 0;
+    max-width: 100%;
+    /* max-height: 400px; */
+    overflow-y: hidden;
+    display: flex;
+    justify-items: center;
+    align-items: flex-start;
+    justify-content: space-between;
+    /* align-content: center; */
+    /* border: 1px solid red; */
+}
+
+/* Best Deal - featured info card (Left column) */
+
+.best-deal-featured-info-card {
+    flex: 3;
+    /* justify-self: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    width: 80%;
+    /* height:; */
+    padding: 0 2%;
+    margin: 0 2%;
+    padding-bottom: 0%; 
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    /* border: 1px solid rebeccapurple; */
+}
+.card-item {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+.card-item-description p {
+    padding: 0%;
+    color: rgb(168, 167, 167);
+    /* border: 1px solid red; */
+}
+.card-item-value b {
+    font-size: larger;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+    /* border: 1px solid red; */
+}
+
+
+
+
+
+/* Best Deal Section (Middle column) - featured image */
+
+.best-deal-featured-image {
+    position: relative;
+    flex: 5;
+    /* justify-content: center; */
+    /* max-width: 80%; */
+    /* border: 1px solid rebeccapurple; */
+    /* max-width: 220px; */
+}
+ .best-deal-featured-image img {
+    /* flex: 1; */
+    width: 90%;
+    height: auto;
+    padding: 0% 5%;
+ }
+
+
+
+
+/* middle column, accordion, featured text content */
+.best-deal-featured-details {
+    flex: 4;
+    /* border: 1px solid rebeccapurple; */
+}
+.best-deal-featured-title {
+    font-size: 100%;
+    font-weight: bolder;
+    /* color: orangered; */
+    width: 80%;
+    margin: 0px auto;
+}
+.best-deal-featured-description {
+    /* font-size: 200%; */
+    /* font-weight: bolder; */
+    /* color: orangered; */
+    width: 80%;
+    margin: 20px auto;
+}
+.best-deal-featured-description p {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.best-deal-visit-link {
+    display: flex;
+    justify-content: flex-start;
+   /* border: 1px solid; */
+   /* text-align: left; */
+   width: 80%;
+   margin: auto;
+   padding: 0;
+}
+.best-deal-visit-link a {
+    /* border: 1px solid; */
+    display: block;
+}
+
+
+
+
+
+
+
