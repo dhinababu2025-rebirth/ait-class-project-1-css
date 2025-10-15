@@ -180,4 +180,40 @@
   gap: 11px;
   margin-top: 150px;
 }
+
+.best-deal-header {
+  flex-direction: column;
+  align-content: center;
+}
+.best-deal-header-text {
+  min-width: 90%;
+  margin-bottom: 20px;
+}
+.best-deal-header-menu {
+  /* width: 100%; */
+  max-width: 100%;
+  justify-content:space-evenly;
+  /* border: 1px solid; */
+}
+
+/* Best Deal - iframe content */
+.best-deal-featured {
+  flex-direction: column;
+  padding: 0;
+}
+.best-deal-featured-info-card {
+  flex: 1;
+  width: 90%;
+}
+.best-deal-featured-image {
+  flex:1;
+  padding: 5px 0;
+  width: 100%;
+}
+.best-deal-featured-details {
+  flex: 1;
+  padding: 10px 0;
+  width: 100%;
+}
+
 }

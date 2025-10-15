@@ -84,7 +84,7 @@ hr {
 
 
 
-/* middle column, accordion, featured text content */
+/* Best Deal Section - right column,  featured text content */
 .best-deal-featured-details {
     flex: 4;
     /* border: 1px solid rebeccapurple; */
@@ -119,6 +119,7 @@ hr {
 .best-deal-visit-link a {
     /* border: 1px solid; */
     display: block;
+    /* min-width: 200px; */
 }
 
 

@@ -74,4 +74,19 @@
   margin-top: 190px;
 }
 
+/* Best Deal Section */
+/* .best-deal-header {
+  border: 1px solid;
+} */
+.best-deal-header-text {
+  min-width: 100%;
+  margin-bottom: 20px;
+}
+.best-deal-header-menu {
+  /* width: 100%; */
+  max-width: 100%;
+  justify-content:space-evenly;
+  /* border: 1px solid; */
+}
+
 }
