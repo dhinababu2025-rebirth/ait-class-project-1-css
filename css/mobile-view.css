@@ -123,6 +123,22 @@
   padding-right: 0%; */
   /* grid-template-columns: repeat(2,fr); */
 }
+.title-featured-mobile-vw {
+  display: block;
+  font-size: 100%;
+    font-weight: bolder;
+    color: orangered;
+    width: 90%;
+  margin: 0px auto;
+}
+.heading-featured-mobile-vw {
+  display: block;
+  font-size: 200%;
+    font-weight: bolder;
+    /* color: orangered; */
+    width: 90%;
+  margin: 20px auto;
+}
 /* featured section - left column (desktop) */
 .featured-image {
   order: 1;
@@ -141,8 +157,14 @@
   padding: 2px;
   width: 100%;
 }
+.title-featured {
+  display: none;
+}
+.heading-featured {
+  display: none;
+}
 
-/* featured section - right column (desktop) */
+/* featured section - info card - right column (desktop) */
 .featured-info {
   order: 2;
   width: 100%;
@@ -202,15 +224,18 @@
 }
 .best-deal-featured-info-card {
   flex: 1;
+  order: 2;
   width: 90%;
 }
 .best-deal-featured-image {
   flex:1;
+  order: 1;
   padding: 5px 0;
   width: 100%;
 }
 .best-deal-featured-details {
   flex: 1;
+  order: 3;
   padding: 10px 0;
   width: 100%;
 }

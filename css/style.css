@@ -188,6 +188,14 @@ hr {
     /* align-content: center; */
     border: 1px solid red;
 }
+
+.title-featured-mobile-vw {
+    display: none;
+}
+.heading-featured-mobile-vw {
+    display: none;
+}
+
 .featured-image {
     position: relative;
     flex: 3;
