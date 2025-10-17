@@ -446,11 +446,65 @@
         </div>
 
     </div>
-
 </section>
 
-<section class="contact-form">
-
+<!-- Last Section of Home page, contact page, involves lot of positioning the boxes -->
+<section class="contact-us-section">
+<!-- background image -->
+<div class="contact-us-section-bg">
+     <img src="./images/contact-bg.jpg" alt="contact us - background image">
+    <!-- single column for entire row -->
+    <div class="contact-us-headings">
+        <b>|CONTACT US</b>
+        <P>
+            Get In Touch With 
+            <br>
+            Our Agents
+        </P>
+    </div>
+    <!-- 2nd row, with 2 col layout using flex -->
+    <div class="contact-us-map-and-form">
+        <div class="embed-location">
+            <!-- map embed code from google -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28703.048432045794!2d-80.14451423271811!3d25.939130085990456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9acfee073549d%3A0xf4e74db7a5da487a!2sSunny%20Isles%20Beach%2C%20FL%2033160%2C%20USA!5e0!3m2!1sen!2sin!4v1760624582556!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <!-- e-contact cards, 2 col layout below map -->
+            <div class="contact-cards">
+                <div class="ph-no-card">
+                    <div class="ph-icon">
+                        <img src="./images/phone-icon.png" alt="ph-icon">
+                    </div>
+                    <div class="ph-no-text">
+                        <a href="">010-020-0340</a>
+                        <p>Phone Number</p>
+                    </div>
+                </div>
+                <div class="email-card">
+                    <div class="email-icon">
+                        <img src="./images/email-icon.png" alt="email-icon">
+                    </div>
+                    <div class="email-text">
+                        <a href="dhinababu2025@gmail.com">info@villa.co</a>
+                        <p>Business Email</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="quick-contact-form">
+            <form action="">
+            <label for="full-name"> Full Name</label>
+            <input type="text" id="full-name" placeholder="  Your Name">
+            
+            <label for="email-id">Email Address</label>
+            <input type="email" id="email-id" placeholder="  Your E-mail">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" placeholder="  Subject">
+            <label for="msg">Message</label>
+            <input type="textarea" id="msg" placeholder="  Your Message">
+            <input type="submit" value="Send Message">
+            </form>
+        </div>
+    </div>
+</div>
 </section>
 
 </main>

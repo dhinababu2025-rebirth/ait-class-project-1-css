@@ -564,7 +564,7 @@ hr {
   gap: 2rem;
   padding: 1.5rem;
 
-  /* 👇 Center the grid content */
+  /* Center the grid content */
   justify-content: center;
   /* align-content: space-evenly; */
   /* width: 100%; */
@@ -656,6 +656,186 @@ hr {
 .property-card-visit a:hover {
     background-color: orangered;
 }
+
+/* Contact Us Section of Home Page */
+/* .contact-us-section { */
+    /* height: 150vh; */
+    /* overflow: visible; */
+    /* border: 1px solid red; */
+/* } */
+/* chatgpt code - to fit the background image within the viewport */
+.contact-us-section-bg {
+    width: 100%;           /* or any fixed width you want */
+    /* height: auto; */
+    max-width: 100vw;      /* never exceed viewport */
+    min-height: 145vh;
+    overflow-x: hidden;      /* hides any spill */
+    /* overflow-y: hidden; */
+    /* padding-bottom: 300px; */
+    position: relative;    /* here, the actual containing block of headings, map, etc.,*/
+    /* border: 1px solid blue; */
+} 
+.contact-us-section-bg img {
+    width: 100%;           /* makes it fit parent width */
+    /* height: auto;          keeps correct proportions */
+    /* position: relative; */
+    display: block;        
+                            /* display: block; removes inline spacing */
+    object-fit: cover;     /* optional: fills container evenly */
+    max-width: 100%;       /* ensures no overflow */
+    /* border: 1px solid violet; */
+}
+.contact-us-headings {
+    text-align: center;
+    position:absolute;
+    top: 10%;
+    left: 40%;
+    z-index: 10;
+    /* color: black; */
+}
+.contact-us-headings b {
+    color: orangered;
+}
+.contact-us-headings p {
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.contact-us-map-and-form {
+    display: flex;
+    position: absolute;
+    top: 25%;
+    left: 2%;
+    width: 96%;
+    justify-content: space-around;
+    /* overflow-y: visible; */
+    /* z-index: 1000; */
+    /* border: 1px solid green; */
+}
+    .embed-location {
+        flex: 1;
+        padding: 3%;
+        /* border: 1px solid greenyellow; */
+        /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4); */
+    }
+            .embed-location iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+            border-radius: 10px;
+            }
+        .contact-cards {
+        display: flex;
+        /* padding-top: 5%; */
+        
+        }
+            .ph-no-card {
+            flex: 1;
+            display: flex;
+            align-content: center;
+            padding: 0 10px;
+            margin: 50px 10px 0;
+            /* width: 90%; */
+            border-radius: 5px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+            }
+                .ph-icon {
+                    flex: 1;
+                    justify-self: center;
+                    align-self: center;
+                    border: none;
+                }
+                .ph-no-text {
+                    text-align: left;
+                    align-self: center;
+                    padding-left: 10px;
+                    font-size: small;
+                    color: rgb(194, 193, 193);
+                    flex: 4;
+                }
+                .ph-no-text a {
+                    /* padding-top: 10px;
+                    padding-bottom: 0; */
+                    font-weight: bold;
+                    /* border: 1px solid; */
+                }
+                /* .ph-no-text p {
+                    border: 1px solid;
+                } */
+            .email-card {
+            flex: 1;
+            display: flex;
+            padding: 0 10px;
+            margin: 50px 10px 0;
+            /* max-width: 90%; */
+            /* align-items: center; */
+            border-radius: 5px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+            }
+                .email-icon {
+                    flex: 1;
+                    justify-self: center;
+                    align-self: center;
+                    padding: 5px;
+                    border: 0;
+                    margin: 0;
+                }
+                .email-text {
+                    flex: 4;
+                    text-align: left;
+                    align-self: center;
+                    padding-left: 10px;
+                    padding-top: 5px;
+                    font-size: small;
+                    color: lightgray;
+                }
+                .email-text a {
+                    padding-top: 5px;
+                    font-weight: bold;
+                }
+                /* .email-text p {
+                    font
+                } */
+
+    .quick-contact-form {
+        flex: 1;
+        margin: 3%;
+        /* margin-bottom: 0; */
+        padding: 1% 3% 0% 3%;
+        background-color: white;
+        border-radius: 10px;
+        /* border: 1px solid yellow; */
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+        /* display: flex; */
+        /* flex-direction: column; */
+    }
+        .quick-contact-form form {
+            display: flex;
+            flex-direction: column;
+        }
+        .quick-contact-form label {
+            flex:1;
+            padding: 10px 0;
+        }
+        .quick-contact-form input {
+            flex: 1;
+            padding: 10px 0;
+            /* margin: 10px 0; */
+            background-color: rgba(211, 211, 211, 0.3);
+            border: none;
+            border-radius: 20px;
+        }
+        .quick-contact-form form input[type="submit"] {
+            padding: 10px 0;
+            margin: 30px 0 0;
+            min-width: 115px;
+            max-width: 120px;
+            color: white;
+            background-color: black;
+        }
+        .quick-contact-form form input[type="submit"]:hover {
+            background-color: orangered;
+        }
 
 footer {
     background-color: black;
