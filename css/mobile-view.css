@@ -246,4 +246,46 @@
     grid-template-columns: repeat(1, 1fr);
 }
 
+/* Contact Us Section */
+.contact-us-section-bg {
+    /* width: 100%;           */
+    /* max-width: 100vw;      */
+    min-height: 220vh;
+    /* overflow-x: hidden;      */
+    /* position: relative;    */
+} 
+.contact-us-headings {
+    /* text-align: center;
+    position:absolute; */
+    top: 2px;
+    left: 25%;
+    /* z-index: 10; */
+}
+.contact-us-headings p {
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+}
+.contact-us-map-and-form {
+    /* display: flex; */
+    /* position: absolute; */
+    flex-direction: column;
+    top: 8%;
+    left: 2%;
+    /* width: 96%; */
+    justify-content: space-evenly;
+}
+
+ .embed-location iframe {
+            /* width: 100%; */
+            height: 200px;
+            /* border: none; */
+            /* border-radius: 10px; */
+            }
+.contact-cards {
+        /* display: flex; */
+        flex-direction: column;
+        
+        }
+
 }

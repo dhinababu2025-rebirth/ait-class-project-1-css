@@ -76,7 +76,6 @@
   flex: 1;
   margin: 0% 4%;
 }
-
 .video-view-bg-text {
     top: 40px;
     /* align-self: center; */
@@ -116,4 +115,28 @@
     /* display: grid; */
     grid-template-columns: repeat(2, 1fr);
 }
+
+/* Contact Us Section */
+.contact-us-headings {
+    text-align: center;
+    position:absolute;
+    top: 5%;
+    left: 33%;
+    z-index: 10;
+    /* color: black; */
+}
+
+ .embed-location iframe {
+            /* width: 100%; */
+            height: 200px;
+            /* border: none; */
+            /* border-radius: 10px; */
+            }
+.contact-cards {
+        /* display: flex; */
+        flex-direction: column;
+        
+        }
+
+
 }
