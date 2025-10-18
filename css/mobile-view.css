@@ -288,4 +288,26 @@
         
         }
 
+/* Properties Page */
+/* heading & title (on bg-image) - banner section - Properties Page */
+  .local-path-prop-page {
+        /* flex: 1; */
+        font-size:xx-small;
+        /* font-weight: bold; */
+        max-width: fit-content;
+        align-self: center;
+        background-color: white;
+        padding: 0;
+        margin: 10px 0 0;
+    }
+    .title-prop-page {
+        /* flex: 1; */
+        /* color: white; */
+        font-size: medium;
+        /* font-weight:900; */
+        /* text-align: center; */
+        padding: 0;
+        margin: 0;
+    }
+
 }
