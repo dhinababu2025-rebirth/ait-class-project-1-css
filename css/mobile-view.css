@@ -250,7 +250,7 @@
 .contact-us-section-bg {
     /* width: 100%;           */
     /* max-width: 100vw;      */
-    min-height: 220vh;
+    min-height: 200vh;
     /* overflow-x: hidden;      */
     /* position: relative;    */
 } 
@@ -308,6 +308,27 @@
         /* text-align: center; */
         padding: 0;
         margin: 0;
+    }
+  
+/* Property Details Page */
+/* heading & title (on bg-image) - banner section - Property Details Page */
+  .local-path-propDetails-page {
+        flex: 1;
+        font-size:xx-small !important;
+        font-weight: bold;
+        /* text-align: center; */
+        max-width: fit-content;
+        align-self: center;
+        background-color: white;
+        padding: 2px;
+        text-align: center;
+    }
+    .title-propDetails-page {
+        flex: 1;
+        color: white;
+        font-size:small !important;
+        font-weight:900;
+        text-align: center;
     }
 
 }
