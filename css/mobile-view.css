@@ -331,4 +331,18 @@
         text-align: center;
     }
 
+    .sp-photo-and-card {
+      flex-wrap: wrap;
+    }
+    .sp-photo {
+      flex: 1;
+      min-width: 70%;
+      order: 2;
+    }
+    .sp-photo-and-card {
+      flex: 1;
+      min-width: 70%;
+      order: 1;
+    }
+
 }
